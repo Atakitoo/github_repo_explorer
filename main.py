@@ -1,6 +1,9 @@
 import urllib.request
 import json
 import csv
+import os
+
+os.makedirs("data", exist_ok=True)
 
 while True:
     print("\n1 - Yeni kullanıcı ara")
